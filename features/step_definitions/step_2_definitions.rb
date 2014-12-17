@@ -1,7 +1,7 @@
-When(/^I click the "(.*?)" tab$/) do |arg1|
-  click_link("Order Online")
+When(/^I click the Order Online tab$/) do
+  click_link('Order Online')
 end
 
 Then(/^I should see the Dominos Location Search page$/) do
-  expect(page).to have_selector(:id, 'locationsSearchPage')
+  expect(page).to have_title('Location Search - Domino\'s Pizza, Order Pizza Online for Delivery - Dominos.com')
 end
