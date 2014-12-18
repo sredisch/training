@@ -31,6 +31,6 @@ When(/^I am taken to the Locations page$/) do
 end
 
 
-When(/^I click the Order Carryout\/Pickup button for store 4371$/) do
+When(/^I click the Order Carryout\/Pickup button for store 4348$/) do
   find(:xpath,'/html/body/div[2]/div[1]/div/div/div[2]/div[2]/div[2]/div[2]/a').click
 end
