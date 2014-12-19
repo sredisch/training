@@ -1,6 +1,7 @@
  Feature: Order Dominos Pizza Online
   We want to step through a simple scenario for training
 
+@homepageexists @orderonlinetab @addressinfo @continuebutton @selectstore
 Scenario: Enter personal address and select a store
   Given I visit the Dominos home page
   When I click the Order Online tab
@@ -15,5 +16,5 @@ Scenario: Enter personal address and select a store
     And I enter 22180 in the Zip Code field
     And I click the Continue button
     And I am taken to the Locations page
-    And I click the Order Carryout/Pickup button for store 4371
+    And I click the Order Carryout/Pickup button for store 4348
   Then I am taken to the Entrees page

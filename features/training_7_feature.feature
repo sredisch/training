@@ -1,7 +1,8 @@
 Feature: Order Dominos Pizza Online
   We want to step through a simple scenario for training
 
-
+@homepageexists @orderonlinetab @addressinfo @continuebutton @selectstore
+@orderbrooklynpizza @orderspecialtypizza @validateprice @validateselection
 Scenario: Enter customer info, select a store, and order 2 pizzas
   Given I visit the Dominos home page
   When I click the Order Online tab
