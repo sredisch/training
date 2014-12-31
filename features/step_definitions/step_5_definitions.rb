@@ -47,7 +47,7 @@ When(/^I click Specialty Pizza$/) do
 end
 
 When(/^I click Order for Italian Sausage and Pepper Trio$/) do
-  find(:xpath, '/html/body/div[3]/div[1]/div/div/section[1]/div/div[4]/a').click
+  find(:xpath, '//a[@class=\'btn media__btn none--handheld\' and @href=\'#/product/S_PIZPT/builder/\' and @data-clicked-element=\'button\']').click
 end
 
 When(/^I click extra Green Peppers$/) do
