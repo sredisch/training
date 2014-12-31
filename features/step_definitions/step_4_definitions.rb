@@ -27,10 +27,10 @@ When(/^I enter 22180 in the Zip Code field$/) do
 end
 
 When(/^I am taken to the Locations page$/) do
-  expect(page).to have_title('Location Search - Domino\'s Pizza, Order Pizza Online for Delivery - Dominos.com')
+  expect(page).to have_selector(:id,'locationsResultsPage')
 end
 
 
 When(/^I click the Order Carryout\/Pickup button for store 4348$/) do
-  find(:xpath,'/html/body/div[2]/div[1]/div/div/div[2]/div[2]/div[2]/div[2]/a').click
+  find(:xpath,'//div[@data-storeid=\'4348\']//a[@data-type=\'Carryout\']').click
 end

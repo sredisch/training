@@ -3,7 +3,5 @@ When(/^I click the Order Online tab$/) do
 end
 
 Then(/^I should see the Dominos Location Search page$/) do
-  sleep 3
-  
-  expect(page).to have_selector(:id, "locationsSearchPage")
+  expect(page).to have_selector(:id,'Dominos-LocationSearch')
 end

@@ -31,5 +31,5 @@ When(/^I click the Continue button$/) do
 end
 
 Then(/^I am taken to the Entrees page/) do
-  expect(page).to have_title('Entrees Home - Domino\'s Pizza, Order Pizza Online for Delivery - Dominos.com')
+  expect(page).to have_selector(:id, 'entreesPage')
 end
