@@ -10,7 +10,7 @@ When(/^I enter Gannett in the Business Name field$/) do
   fill_in('Location_Name', :with => 'Gannett')
 end
 
-When(/^I enter (\d+) Jones Branch Drive in the Street Address field$/) do |arg1|
+When(/^I enter 7950 Jones Branch Drive in the Street Address field$/) do
   fill_in('Street', :with => '7950 Jones Branch Drive')
 end
 
@@ -22,7 +22,7 @@ When(/^I select VA from the State the select box$/) do
   select('VA', :from => 'Region')
 end
 
-When(/^I enter 22102 in the Zip Code field$/) do |arg1|
+When(/^I enter 22102 in the Zip Code field$/) do
   fill_in('Postal_Code', :with => '22102')
 end
 

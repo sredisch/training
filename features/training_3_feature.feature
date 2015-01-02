@@ -1,7 +1,7 @@
  Feature: Order Dominos Pizza Online
   We want to step through a simple scenario for training
 
-@homepageexists @orderonlinetab @addressinfo @continuebutton
+@homepageexists @orderonlinetab @addressinfo @continuebutton @address
 Scenario: Enter company name and address to order pizza
   Given I visit the Dominos home page
   When I click the Order Online tab
